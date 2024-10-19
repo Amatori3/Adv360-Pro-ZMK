@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_For_game {
+            bindings = <
+         &trans    &trans          &trans     &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans    &trans    &kp UP_ARROW     &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &kp ESC  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LEFT_SHIFT     &kp Z           &kp X      &kp C  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+      &kp LCTRL    &trans          &trans     &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
